@@ -1,0 +1,220 @@
+/* .container1,.container2,.container3{
+    background-color: antiquewhite;
+    font-size: 15px;
+    width: 90%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+}
+
+
+.container1{
+    background-color: antiquewhite;
+    font-size: 15px;
+    width: 420px;
+    height: 400px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.container3{
+    background-color: aquamarine;
+    font-size: 15px;
+    width: 420px;
+    height: 385px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.container2{
+    background-color: aqua;
+    font-size: 15px;
+    padding: 20px;
+    width: 420px;
+    height: 505px;
+    gap: 20px;
+    border-radius: 15px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(234, 191, 113);
+}
+.pInput,.sInput,.Input{
+    padding: 10px;
+    font-size: 15px;
+    margin: 4px;
+    width: calc(100% - 20);
+    box-sizing: border-box;
+}
+.btn1{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 4px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.radio{
+    display: flex;
+    justify-content: start;
+}
+
+.Detail{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    
+}
+.lb{
+    display: flex;
+    justify-content: start;
+}
+.moveToSignUp,.moveToForget,.moveToSignIn{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.validation{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+i{
+    margin: 0;
+} */
+
+.container1 {
+    background-color: antiquewhite;
+    font-size: 15px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 420px; /* Maximum width */
+    height: auto; /* Adjusted height for responsiveness */
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto; /* Center the container horizontally */
+}
+
+.container2 {
+    background-color: aqua;
+    font-size: 15px;
+    padding: 20px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 420px; /* Maximum width */
+    height: auto; /* Adjusted height for responsiveness */
+    gap: 20px;
+    border-radius: 15px;
+    margin: auto; /* Center the container horizontally */
+}
+
+.container3 {
+    background-color: aquamarine;
+    font-size: 15px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 420px; /* Maximum width */
+    height: auto; /* Adjusted height for responsiveness */
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto; /* Center the container horizontally */
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pInput,
+.sInput,
+.Input {
+    padding: 10px;
+    font-size: 15px;
+    margin: 4px;
+    width: calc(100% - 20px); /* Adjusted width for responsiveness */
+}
+
+.btn1 {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 4px;
+    width: calc(100% - 20px); /* Adjusted width for responsiveness */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 191, 113);
+}
+
+.radio {
+    display: flex;
+    justify-content: start;
+}
+
+.Detail {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjusted width for responsiveness */
+}
+
+.lb {
+    display: flex;
+    justify-content: start;
+}
+
+.moveToSignUp,
+.moveToForget,
+.moveToSignIn {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.validation {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+i {
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container1, .container3, .container2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container1, .container3, .container2 {
+        width: 50%;
+    }
+}
