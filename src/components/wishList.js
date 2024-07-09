@@ -17,12 +17,9 @@ const WishList = () => {
     console.log(product.id, "line no -15");
     return product.id;
   });
-  console.log(wishListId, "line no -18 ");
   const addedToCart = cardData.some((item) => {
-    console.log(item.id, "line no -20");
     return wishListId.includes(item.id);
   });
-  console.log(addedToCart, "line no -23");
   const RemoveWishListData = (prod) => {
     dispatch(RemoveWishList({ id: prod.id }));
   };

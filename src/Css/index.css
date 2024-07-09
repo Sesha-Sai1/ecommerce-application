@@ -128,13 +128,13 @@ i{
 .container3 {
     background-color: aquamarine;
     font-size: 15px;
-    width: 90%; /* Adjusted width for responsiveness */
-    max-width: 420px; /* Maximum width */
-    height: auto; /* Adjusted height for responsiveness */
+    width: 90%; 
+    max-width: 420px; 
+    height: auto;
     gap: 20px;
     padding: 20px;
     border-radius: 15px;
-    margin: auto; /* Center the container horizontally */
+    margin: auto; 
 }
 
 .main-container {
