@@ -117,13 +117,19 @@ i{
     background-color: aqua;
     font-size: 15px;
     padding: 20px;
-    width: 90%; /* Adjusted width for responsiveness */
-    max-width: 420px; /* Maximum width */
-    height: auto; /* Adjusted height for responsiveness */
+    width: 90%;
+    max-width: 420px;
+    height: auto; 
     gap: 20px;
     border-radius: 15px;
-    margin: auto; /* Center the container horizontally */
+    margin: auto; 
 }
+
+.head{
+    color: red;
+}
+
+
 
 .container3 {
     background-color: aquamarine;
@@ -143,6 +149,8 @@ i{
     align-items: center;
     height: 100vh;
 }
+
+
 
 .pInput,
 .sInput,

@@ -42,7 +42,7 @@ const Card = ({ product }) => {
   return (
     <>
       <div className=" col-lg-4 col-md-6 col-sm-12 col-xl-3 col-xxl-3 text-center">
-        <div className="card my-2 " style={{ width: "320px", height: "430px" }}>
+        <div className="card my-2" style={{ width: "320px", height: "430px" }}>
           <div
             className="d-flex justify-content-center "
             style={{ height: "150px" }}
